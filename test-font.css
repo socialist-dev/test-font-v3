@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "times_new_roman_cyrregular";
+    src: url(public/fonts/times_new_roman-webfont.woff2) format("woff2"),
+        url(public/fonts/times_new_roman-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(public/fonts/montserrat-v26-vietnamese-regular.woff2) format("woff2");
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    font-family: "times_new_roman_cyrregular";
+    font-size: 70px;
+}
+
+#paragraph {
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+
+#symbol {
+    font-family: "times_new_roman_cyrregular";
+}
